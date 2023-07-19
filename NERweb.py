@@ -3,7 +3,7 @@ import streamlit as st
 from spacy import displacy
 
 # Load the spaCy model
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("NERmodel")
 
 # Set up Streamlit app
 st.title("Data Entity Recognition")
